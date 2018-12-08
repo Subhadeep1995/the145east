@@ -1,0 +1,33 @@
+.models
+{
+	display: flex;
+	width: 500px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: -20px;
+}
+
+.model
+{
+	padding: 20px;
+	width: 150px;
+	overflow: hidden;
+}
+
+.model img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.dreams
+{
+	margin-right: -150px;
+	/*margin-top: -50px; */
+}
+
+.dreams img
+{
+	width: 100%;
+
+}
