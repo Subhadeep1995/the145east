@@ -38,6 +38,12 @@ header
 	padding-top: 10px;
 }
 
+.header_link a
+{
+	color: #000;
+	text-decoration: none;
+}
+
 .menu ul 
 {
 	margin: 0;

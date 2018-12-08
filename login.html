@@ -4,13 +4,13 @@
 	<meta charset="UTF-8">
 	<title>The 145 East </title>
 	<link rel="stylesheet" href="css/base.css">
-	<link rel="stylesheet" href="css/home.css">
+	<link rel="stylesheet" href="css/sign_in.css">
 </head>
 <body>
 
 	<header>
 		<div id="logo">
-			<img src="./img/header_logo.png" alt="">
+			<a href="./index.html"><img src="./img/header_logo.png" alt=""></a>
 		</div>
 		<div class="header_link">
 			<a href="login.html">Sign in</a>
@@ -36,14 +36,18 @@
 
 	<div class="main">
 		<div class="content">
-			<div class="models">
-				<div class="model"><img src="./img/model1.jpeg" alt=""></div>
-				<div class="model"><img src="./img/model2.jpeg" alt=""></div>
-				<div class="model"><img src="./img/model3.jpeg" alt=""></div>
-				<div class="model"><img src="./img/model4.jpeg" alt=""></div>
+			<div class="row1">
+				<form action="POST">
+					<p><label for="email">Email ID</label></p>
+					<p><input type="email" id="email" name="email"></p>
+					<label for="password" id="password" name="password">Password</label>
+					<p><input type="password"></p>
+					<input type="submit" value="Login" class="button-default">
+				</form>
 			</div>
-			<div class="dreams">
-				<img src="./img/home_hero.png" alt="">
+			<div class="row2">
+				<p>Create an account with us for faster checkouts and exclusive content and discounts.</p>
+				<a href="" class="button-default">Create</a>
 			</div>
 		</div>
 	</div>
