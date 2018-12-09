@@ -1,8 +1,7 @@
 *
 {
-	font-family: Verdana;
+	font-family: Arial;
 	text-transform: uppercase;
-	font-size: 10pt;
 }
 
 .row2
@@ -33,7 +32,10 @@
 {
 	letter-spacing: 0.3rem;
 }
-
+.content
+{
+	font-size: 10pt
+}
 /*.wrapper
 {
 	top: 50%;
